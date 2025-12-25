@@ -1,0 +1,11 @@
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+size = 11.0
+
+[shell]
+program = "/usr/bin/zsh"
+args = ["-l"]
+
+[window]
+opacity = 0.9
+padding = { x = 10, y = 10 }
