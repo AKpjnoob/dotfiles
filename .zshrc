@@ -121,3 +121,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+export XDG_DATA_DIRS="/var/lib/flatpak/exports/share:$HOME/.local/share/flatpak/exports/share:$XDG_DATA_DIRS"
+export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
+export PATH="$JAVA_HOME/bin:$PATH"
+alias phone="scrcpy -m 1024 --max-fps 30 --video-bit-rate 4M --keyboard=uhid --mouse=uhid"
